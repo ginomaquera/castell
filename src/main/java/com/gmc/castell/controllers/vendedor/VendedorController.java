@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 
 @Controller
-@RequestMapping("/admin/vendedor")
+@RequestMapping("vendedor")
 public class VendedorController {
     
     @RequestMapping(method = RequestMethod.GET)
     public String index(Model model) {
-        return "admin/vendedor/index";
+        return "vendedor/index";
     }
     
 }
